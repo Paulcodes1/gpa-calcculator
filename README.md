@@ -4,7 +4,7 @@
 **An institutional-grade GPA calculator mimicking the SAFRecords module.**
 
 ## 🔗 Project Links
-- **Live Demo:** [Insert your GitHub Pages link here]
+- **Live Demo:** [GPA Calculator](https://paulcodes1.github.io/gpa-calcculator/)
 - **Presentation Slides:** [Link to Google Slides](https://docs.google.com/presentation/d/1W_ZcNJ-6sZ93u-_EggZGYJL9t8JaODP_kmPEsY3iJD4/edit?usp=sharing)
 - **Color Palette:** [Palette #3: Teal & Navy](https://coolors.co/palette/edae49-d1495b-00798c-30638e-003d5b)
 
