@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic GPA Designer | SAFRecords Style</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>GPA Computation Tool</h1>
+            <p>Institutional Grading Module</p>
+        </header>
+
+        <section class="input-section">
+            <table id="course-table">
+                <thead>
+                    <tr>
+                        <th>Course Code</th>
+                        <th>Credit Units</th>
+                        <th>Grade</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="course-body">
+                    </tbody>
+            </table>
+            <button id="add-row-btn" class="btn-secondary">+ Add Course</button>
+        </section>
+
+        <section class="results-grid">
+            <div class="card result-card">
+                <h3>Current GPA</h3>
+                <div id="gpa-display">0.00</div>
+                <div class="stats">
+                    <p>Total Units: <span id="total-units">0</span></p>
+                    <p>Total Points: <span id="total-points">0</span></p>
+                </div>
+                <div class="actions">
+                    <button onclick="window.print()" class="btn-print">Print Result</button>
+                    <button id="reset-btn" class="btn-reset">Reset All</button>
+                </div>
+            </div>
+
+            <div class="card advisor-card">
+                <h3>AI Performance Advisor</h3>
+                <p>Target GPA: <input type="number" id="target-gpa" step="0.1" max="5.0" placeholder="e.g. 4.5"></p>
+                <div id="advisor-output">Enter a target to see suggestions...</div>
+            </div>
+        </section>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
