@@ -20,7 +20,7 @@ Each course is represented as an object:
 ## 3. Core Logic & Formulas
 ### GPA Calculation
 The system iterates through the `courses` array to calculate the **Quality Point (QP)** for each course (Units × Grade Value). It then applies the standard formula:
-GPA = ∑(Units x Grade Value) / ∑(Total Units)
+GPA = ∑(Units x Grade Value) / ∑ (Total Units)
 
 ### Grade-to-Point Mapping
 The tool follows a 5.0 scale:
@@ -39,6 +39,6 @@ This module uses a **Goal-Seeking Algorithm**. It takes the user's `Target GPA` 
 The application uses a specific CSS `@media print` stylesheet. This removes interactive elements (buttons, inputs, advisor card) and adjusts the table width to 100% for a clean paper/PDF output.
 
 ## 5. UI/UX Design
-* **Color Palette:** Palette #3 ($#00798C$, $#003D5B$, $#EDAE49$).
+* **Color Palette:** Palette 3 ( #00798C, #003D5B, #EDAE49).
 * **Responsiveness:** Implemented via CSS Flexbox and media queries for mobile accessibility.
 * **Validation:** Event listeners prevent string inputs in numeric fields and ensure a minimum of 0 units.
