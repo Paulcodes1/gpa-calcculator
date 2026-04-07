@@ -20,7 +20,7 @@ Each course is represented as an object:
 ## 3. Core Logic & Formulas
 ### GPA Calculation
 The system iterates through the `courses` array to calculate the **Quality Point (QP)** for each course (Units × Grade Value). It then applies the standard formula:
-$$GPA = \frac{\sum (\text{Units} \times \text{Grade Value})}{\sum \text{Total Units}}$$
+GPA = ∑(Units x Grade Value) / ∑(Total Units)
 
 ### Grade-to-Point Mapping
 The tool follows a 5.0 scale:
